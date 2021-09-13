@@ -1,4 +1,4 @@
 ---
 collections:
-
-- name: redhat.openshift
+  - name: redhat.openshift
+    version: 2.0.1
