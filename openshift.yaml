@@ -1,0 +1,6 @@
+# Authenticate with token, and return all pods and services for all namespaces
+plugin: redhat.openshift.openshift
+connections:
+  - host: {{ hostname }}
+    api_key: {{ api_key }}
+    verify_ssl: false
