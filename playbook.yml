@@ -2,9 +2,6 @@
 - hosts: localhost
   gather_facts: no
   connection: redhat.openshift.oc
-  
-  collections: 
-    - redhat.openshift
 
   tasks:
     - name: Ensure the myapp Namespace exists.
