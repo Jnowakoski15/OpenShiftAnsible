@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: local
   gather_facts: true
   connection: oc
 
