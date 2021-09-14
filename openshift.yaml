@@ -1,4 +1,5 @@
 plugin: redhat.openshift.openshift
 connections:
-  - host: https://api.os-cluster.nowakoski.net:6443
-    verify_ssl: false
+    - kubeconfig: /root/.kube/config
+      context: 'default/api-os-cluster-nowakoski-net:6443/kube:admin'
+
