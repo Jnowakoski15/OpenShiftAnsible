@@ -1,0 +1,4 @@
+plugin: redhat.openshift.openshift
+connections:
+  - host: https://api.os-cluster.nowakoski.net:6443
+    verify_ssl: false
