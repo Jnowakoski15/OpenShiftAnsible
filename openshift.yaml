@@ -2,4 +2,5 @@ plugin: redhat.openshift.openshift
 connections:
     - kubeconfig: /tmp/config
       context: 'default/api-os-cluster-nowakoski-net:6443/kube:admin'
-
+    - kubeconfig: /tmp/config
+      context: 'default/api-os-cluster-nowakoski-net:6443/kube:admin'
